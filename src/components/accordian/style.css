@@ -1,0 +1,51 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper button {
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(228, 189, 19);
+}
+
+#multiselectionstatus {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.accordian {
+    width: 500px;
+}
+
+.item {
+    background: #731303;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    height: auto;
+}

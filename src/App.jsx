@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       {/* Accordian Component */}
-      {/* <Accordian /> */}
+      <Accordian />
       {/* Random Color Component */}
       <RandomColor />
     </>
